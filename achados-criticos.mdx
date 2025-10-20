@@ -1,0 +1,233 @@
+---
+title: 'Monitor de Achados Críticos'
+description: 'Guia para usar o sistema de monitoramento de achados que exigem atenção imediata'
+icon: 'alert-triangle'
+---
+
+# Monitor de Achados Críticos
+
+O Monitor de Achados Críticos é um sistema automatizado que identifica e agrupa achados que exigem atenção médica imediata, garantindo que nenhum caso urgente seja perdido ou atrasado.
+
+## Visão Geral do Sistema
+
+O monitor analisa automaticamente todos os laudos gerados e identifica achados que correspondem a critérios de urgência, classificando-os por nível de prioridade clínica.
+
+### Classificação de Prioridades
+
+<CardGroup cols={2}>
+<Card title="Crítica Imediata" icon="alert-octagon">
+Achados que exigem ação imediata dentro de minutos ou horas. Exibidos em vermelho com alerta sonoro.
+</Card>
+
+<Card title="Alta Prioridade" icon="alert-triangle">
+Achados importantes que devem ser revisados e tratados no mesmo dia. Exibidos em laranja.
+</Card>
+
+<Card title="Média Prioridade" icon="clock">
+Achados que requerem atenção dentro de 24-48 horas. Exibidos em amarelo.
+</Card>
+
+<Card title="Baixa Prioridade" icon="info">
+Achados de menor urgência que devem ser documentados e monitorados. Exibidos em azul.
+</Card>
+</CardGroup>
+
+## Como Funciona o Monitoramento
+
+### Detecção Automática
+
+O sistema utiliza algoritmos de IA treinados para identificar:
+
+<AccordionGroup>
+<Accordion title="Achados de Emergência">
+- Hemorragias agudas
+- Fraturas deslocadas
+- Pneumotórax
+- Embolias pulmonares
+- Infartos agudos
+</Accordion>
+
+<Accordion title="Alterações Críticas">
+- Massas suspeitas
+- Lesões vasculares
+- Infecções graves
+- Obstruções
+- Malformações
+</Accordion>
+
+<Accordion title="Comparações com Exames Anteriores">
+- Progressão de lesões
+- Novos achados
+- Aumento de tamanho
+- Mudanças significativas
+</Accordion>
+</AccordionGroup>
+
+### Processo de Identificação
+
+<Steps>
+<Step title="Análise do Laudo">
+Quando um laudo é gerado ou editado, o sistema analisa o conteúdo automaticamente
+</Step>
+
+<Step title="Identificação de Padrões">
+A IA compara o texto com bancos de dados de termos críticos e padrões de urgência
+</Step>
+
+<Step title="Classificação por Prioridade">
+Os achados são classificados conforme gravidade e urgência de tratamento
+</Step>
+
+<Step title="Notificação e Registro">
+Alertas são gerados e os achados são listados no monitor com contadores atualizados
+</Step>
+</Steps>
+
+## Interface do Monitor
+
+### Visão por Prioridade
+
+O monitor organiza os achados em seções separadas por nível de prioridade:
+
+<Info>
+Cada seção mostra:
+- **Contador de achados pendentes** - Número de casos não revisados
+- **Contador em revisão** - Casos sendo avaliados
+- **Lista detalhada** - Com informações do paciente, tipo de exame e achado identificado
+</Info>
+
+### Filtros e Busca
+
+Use os filtros para encontrar achados específicos:
+
+- **Por tipo de exame** - TC, RM, USG, RX, etc.
+- **Por data** - Achados de hoje, última semana, mês
+- **Por status** - Pendentes, em revisão, concluídos
+- **Por palavra-chave** - Busque termos específicos nos achados
+
+## Gerenciando Achados Críticos
+
+### Ações Disponíveis
+
+<CardGroup cols={2}>
+<Card title="Visualizar Detalhes" icon="eye">
+Clique em qualquer achado para ver o laudo completo e contexto do achado
+</Card>
+
+<Card title="Marcar como Revisado" icon="check">
+Confirme que o achado foi revisado e as ações necessárias foram tomadas
+</Card>
+
+<Card title="Adicionar Notas" icon="edit">
+Adicione observações sobre o atendimento ou ações tomadas
+</Card>
+
+<Card title="Comunicar Equipe" icon="users">
+Notifique outros membros da equipe sobre achados críticos
+</Card>
+</CardGroup>
+
+### Protocolo de Atendimento
+
+<Steps>
+<Step title="Reconhecimento Imediato">
+Identifique o achado crítico através do alerta visual/sonoro
+</Step>
+
+<Step title="Avaliação Rápida">
+Revise o laudo e as imagens para confirmar a urgência
+</Step>
+
+<Step title="Ação Apropriada">
+Tome as medidas necessárias: notificar médico, agilizar tratamento, etc.
+</Step>
+
+<Step title="Documentação">
+Registre as ações tomadas e marque o achado como revisado
+</Step>
+</Steps>
+
+## Configurações e Personalização
+
+### Alertas e Notificações
+
+Personalize como você deseja ser notificado:
+
+<AccordionGroup>
+<Accordion title="Alertas Visuais">
+- Cores diferentes para cada nível de prioridade
+- Badges com contadores de achados pendentes
+- Destaque na barra de navegação
+</Accordion>
+
+<Accordion title="Alertas Sonoros">
+- Sons distintos para cada nível de urgência
+- Volume ajustável
+- Opção de silenciar durante certos horários
+</Accordion>
+
+<Accordion title="Notificações por Email">
+- Resumo diário de achados críticos
+- Alertas imediatos para achados de emergência
+- Relatórios semanais de produtividade
+</Accordion>
+</AccordionGroup>
+
+### Critérios de Detecção
+
+Instituições podem personalizar os critérios de detecção:
+
+- **Termos específicos** - Adicionar termos médicos relevantes
+- **Níveis de prioridade** - Ajustar classificações conforme protocolos internos
+- **Exames a monitorar** - Selecionar quais tipos de exames devem ser analisados
+- **Profissionais a notificar** - Definir quem recebe alertas de cada tipo
+
+## Métricas e Relatórios
+
+### Indicadores de Desempenho
+
+O monitor fornece métricas importantes:
+
+<CardGroup cols={2}>
+<Card title="Tempo de Resposta" icon="timer">
+Tempo médio entre detecção e revisão de achados críticos
+</Card>
+
+<Card title="Taxa de Detecção" icon="search">
+Percentual de achados críticos identificados corretamente
+</Card>
+
+<Card title="Casos por Período" icon="calendar">
+Número de achados críticos identificados por dia/semana/mês
+</Card>
+
+<Card title="Distribuição por Tipo" icon="pie-chart">
+Quais tipos de achados são mais frequentemente identificados
+</Card>
+</CardGroup>
+
+## Melhores Práticas
+
+<Tip>
+**Verifique regularmente** - Consulte o monitor várias vezes ao dia, especialmente após períodos de alta produtividade
+</Tip>
+
+<Tip>
+**Aja rapidamente** - Para achados de crítica imediata, a ação deve ser tomada em minutos, não horas
+</Tip>
+
+<Tip>
+**Documente tudo** - Registre as ações tomadas para cada achado crítico
+</Tip>
+
+<Tip>
+**Comunique a equipe** - Mantenha todos informados sobre achados que afetam o cuidado do paciente
+</Tip>
+
+<Warning>
+O Monitor de Achados Críticos é uma ferramenta de apoio, mas não substitui o julgamento clínico do radiologista. Sempre confirme os achados nas imagens.
+</Warning>
+
+<Check>
+A detecção automática de achados críticos melhora a segurança do paciente e reduz o risco de perda de casos urgentes.
+</Check>

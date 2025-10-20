@@ -1,0 +1,211 @@
+---
+title: 'Editor de Laudos'
+description: 'Guia completo para criar e editar laudos médicos com assistência de IA'
+icon: 'edit'
+---
+
+# Editor de Laudos
+
+O Editor de Laudos é o coração da plataforma Laudos.AI. Aqui você cria, edita e finaliza laudos médicos com o suporte de inteligência artificial, ditado por voz e ferramentas avançadas de formatação.
+
+## Criando um Novo Laudo
+
+### Métodos de Criação
+
+<CardGroup cols={3}>
+<Card title="A partir de descrição" icon="type">
+Digite achados clínicos e radiológicos e deixe a IA gerar um laudo completo
+</Card>
+
+<Card title="Ditado por voz" icon="mic">
+Use o reconhecimento de voz para ditar seus achados e gerar o laudo
+</Card>
+
+<Card title="A partir de modelo" icon="file-template">
+Escolha um template da biblioteca e personalize com seus achados
+</Card>
+</CardGroup>
+
+### Passo a Passo para Criar um Laudo
+
+<Steps>
+<Step title="Acesse a criação de novo laudo">
+Clique em "Novo Laudo" no painel principal ou acesse a aba "Laudos" e selecione "Criar Novo Laudo"
+</Step>
+
+<Step title="Preencha as informações obrigatórias">
+<Tabs>
+<Tab title="Tipo de Exame (Obrigatório)">
+Selecione o tipo de exame: TC de tórax, RM abdômen, USG, etc.
+</Tab>
+
+<Tab title="Achados Radiológicos (Obrigatório)">
+Descreva os achados observados nas imagens. Seja objetivo e estruturado.
+</Tab>
+
+<Tab title="Achados Clínicos (Opcional)">
+Informe sinais clínicos ou indicação do exame para contexto.
+</Tab>
+</Tabs>
+</Step>
+
+<Step title="Configure opções adicionais">
+- **Omitir seção de Impressão** - Marque se deseja gerar sem a seção de impressão
+- **Exame com contraste** - Indique se foi utilizado contraste
+- **Workflow** - Selecione regras específicas da instituição (se disponível)
+</Step>
+
+<Step title="Gere o laudo">
+Clique em "Gerar Laudo" para que a IA produza um texto estruturado baseado nas informações fornecidas
+</Step>
+</Steps>
+
+## Ferramentas do Editor
+
+### Barra de Formatação
+
+A barra de ferramentas oferece recursos completos de formatação de texto:
+
+<AccordionGroup>
+<Accordion title="Formatação Básica">
+- **Negrito** - Destaque títulos e informações importantes
+- **Itálico** - Ênfase em termos médicos e citações
+- **Cabeçalhos** - Estruture o laudo com hierarquia clara
+- **Listas** - Organize achados em formato de lista
+</Accordion>
+
+<Accordion title="Formatação Avançada">
+- **Auto-formatar** - Ajusta automaticamente títulos e subtítulos para padrões internos
+- **Impressão** - Gera uma versão otimizada para impressão
+- **Buscar Artigos** - Pesquisa referências científicas relacionadas aos achados
+- **Extrair Memórias** - Identifica e armazena trechos importantes para aprendizado da IA
+</Accordion>
+</AccordionGroup>
+
+### Ditado por Voz
+
+<Steps>
+<Step title="Ative o ditado">
+Clique no botão "Usar voz" na barra de ferramentas
+</Step>
+
+<Step title="Permita acesso ao microfone">
+O navegador solicitará permissão para acessar seu microfone. Conceda a permissão.
+</Step>
+
+<Step title="Comece a falar">
+Fale claramente descrevendo seus achados. A ferramenta converterá sua fala em texto.
+</Step>
+
+<Step title="Revise e edite">
+Revise o texto transcrito e faça os ajustes necessários.
+</Step>
+</Steps>
+
+<Warning>
+Certifique-se de estar em um ambiente silencioso para melhor precisão do reconhecimento de voz.
+</Warning>
+
+### Assistente IA Lateral
+
+O painel lateral do assistente IA oferece suporte inteligente durante a criação do laudo:
+
+<CardGroup cols={2}>
+<Card title="Sugestões de Terminologia" icon="help-circle">
+Peça sugestões para termos médicos específicos ou descrições mais precisas
+</Card>
+
+<Card title="Exemplos de Laudos" icon="file-text">
+Solicite exemplos de laudos para tipos específicos de exames ou achados
+</Card>
+
+<Card title="Esclarecimento de Dúvidas" icon="message-square">
+Tire dúvidas sobre achados radiológicos ou melhores práticas de documentação
+</Card>
+
+<Card title="Revisão de Texto" icon="check-circle">
+Peça sugestões de melhorias no texto do seu laudo
+</Card>
+</CardGroup>
+
+## Salvando e Publicando
+
+### Opções de Salvamento
+
+<Tabs>
+<Tab title="Salvar Rascunho">
+**Botão "Salvar"** - Guarda alterações sem finalizar o laudo
+- O laudo permanece em modo de edição
+- Pode ser retomado posteriormente
+- Auto-save ativado por padrão
+</Tab>
+
+<Tab title="Copiar Texto">
+**Botão "Copiar"** - Copia o texto formatado para área de transferência
+- Mantém a formatação do laudo
+- Útil para colar em outros sistemas
+- Preserva a estrutura do documento
+</Tab>
+
+<Tab title="Publicar/Assinar">
+**Botão "Publicar/Assinar"** - Finaliza o laudo (dependendo do fluxo da instituição)
+- Marca o laudo como concluído
+- Aplica assinatura digital (se configurada)
+- Torna o laudo disponível para outros sistemas
+</Tab>
+</Tabs>
+
+### Avaliação de Qualidade
+
+Ao final do laudo, você encontrará botões para avaliar a qualidade:
+
+- **"Aprovar"** - Indica que o laudo está completo e correto
+- **"Precisa melhorar"** - Marca para revisão adicional
+
+<Check>
+Sempre revise o laudo gerado pela IA antes de publicar. A tecnologia é poderosa, mas a validação médica é essencial.
+</Check>
+
+## Estrutura do Laudo
+
+### Seções Padrão
+
+Um laudo gerado tipicamente inclui:
+
+<AccordionGroup>
+<Accordion title="Identificação do Exame">
+- Tipo de exame e data
+- Indicação clínica
+- Técnica utilizada
+</Accordion>
+
+<Accordion title="Descrição dos Achados">
+- Achados radiológicos detalhados
+- Comparação com exames anteriores (se houver)
+- Observações relevantes
+</Accordion>
+
+<Accordion title="Impressão Diagnóstica">
+- Conclusões principais
+- Sugestões de seguimento
+- Recomendações adicionais
+</Accordion>
+</AccordionGroup>
+
+## Dicas para Melhores Resultados
+
+<Tip>
+**Seja específico nos achados** - Quanto mais detalhada for sua descrição, mais preciso será o laudo gerado.
+</Tip>
+
+<Tip>
+**Use terminologia médica padrão** - A IA reconhece melhor termos médicos consagrados e padrões de descrição.
+</Tip>
+
+<Tip>
+**Revise sempre** - Mesmo com IA de alta qualidade, a revisão médica é indispensável para garantir segurança e precisão.
+</Tip>
+
+<Warning>
+O Editor de Laudos é uma ferramenta de apoio. A responsabilidade final pelo conteúdo médico sempre pertence ao profissional que assina o laudo.
+</Warning>

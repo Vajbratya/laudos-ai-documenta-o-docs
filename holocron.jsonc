@@ -1,0 +1,50 @@
+{
+  "logo": {
+    "dark": "https://uploads.holocron.so/site/01K7X4HG9AE4TV99GCQP41JW7N/mediaAssets/x5rcvvwmgo0pmip2-laudos_ai_logo_dark_ui_matched-ago1ugsbqbyfdqqa26xpcfhb858dpw-(1).png",
+    "text": "Laudos.AI",
+    "light": "https://uploads.holocron.so/site/01K7X4HG9AE4TV99GCQP41JW7N/mediaAssets/w6dxua30mxtzxjhi-laudos_ai_logo_dark_ui_matched-ago1ugsbqbyfdqqa26xpcfhb858dpw-(1).png"
+  },
+  "name": "Laudos.AI - Documentação",
+  "footer": {
+    "links": [
+      {
+        "items": [
+          {
+            "href": "https://holocron.so",
+            "label": "Holocron"
+          }
+        ],
+        "header": "Documentation"
+      }
+    ],
+    "socials": {
+      "github": "https://github.com/remorses",
+      "twitter": "https://x.com/__morse"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://holocron.so",
+        "icon": "document",
+        "label": "Home"
+      }
+    ],
+    "primary": {
+      "href": "https://holocron.so/login",
+      "type": "button",
+      "label": "Get Started"
+    }
+  },
+  "siteId": "01K7X4HG9AE4TV99GCQP41JW7N",
+  "$schema": "https://holocron.so/holocron.json",
+  "domains": [
+    "docs.laudos.ai",
+    "www.docs.laudos.ai"
+  ],
+  "favicon": {
+    "dark": "/favicon.svg",
+    "light": "/favicon.svg"
+  },
+  "disableEditButton": false
+}

@@ -1,0 +1,322 @@
+---
+title: 'Biblioteca de Modelos'
+description: 'Guia completo para usar templates e modelos de laudos médicos'
+icon: 'library'
+---
+
+# Biblioteca de Modelos
+
+A Biblioteca de Modelos do Laudos.AI oferece templates padronizados para diversas modalidades de exame, permitindo criar laudos consistentes e eficientes com base em estruturas pré-definidas.
+
+## Tipos de Modelos Disponíveis
+
+### Modelos por Modalidade
+
+<CardGroup cols={2}>
+<Card title="Tomografia Computadorizada (TC)" icon="scan">
+Templates para TC de crânio, tórax, abdômen, pelve e extensões específicas
+</Card>
+
+<Card title="Ressonância Magnética (RM)" icon="magnet">
+Modelos para RM de encéfalo, coluna, articulações, abdômen e pelve
+</Card>
+
+<Card title="Ultrassonografia (USG)" icon="waves">
+Templates para USG abdominal, transvaginal, doppler, musculoesquelético
+</Card>
+
+<Card title="Radiografia Convencional (RX)" icon="x-ray">
+Modelos para RX de tórax, ossos, articulações, abdômen
+</Card>
+</CardGroup>
+
+### Modelos por Popularidade
+
+<Info>
+Os modelos são organizados por frequência de uso, facilitando encontrar os mais comuns em seu dia a dia.
+</Info>
+
+## Usando um Modelo Existente
+
+### Passo a Passo
+
+<Steps>
+<Step title="Acesse a Biblioteca">
+Clique em "Modelos" no menu lateral ou "Biblioteca de Modelos" no editor
+</Step>
+
+<Step title="Navegue pelos modelos">
+Use filtros para encontrar o modelo ideal:
+- Por modalidade (TC, RM, USG, RX)
+- Por região anatômica (tórax, abdômen, crânio, etc.)
+- Por tipo de achado (rotina, emergência, seguimento)
+</Step>
+
+<Step title="Visualize o modelo">
+Clique para ver a estrutura completa antes de usar
+</Step>
+
+<Step title="Aplique o modelo">
+Selecione "Usar este modelo" para carregá-lo no editor
+</Step>
+</Steps>
+
+### Estrutura dos Modelos
+
+Cada modelo tipicamente inclui:
+
+<AccordionGroup>
+<Accordion title="Cabeçalho">
+- Identificação do exame
+- Indicação clínica
+- Técnica utilizada
+</Accordion>
+
+<Accordion title="Seções de Descrição">
+- Anatomia normal
+- Achados patológicos
+- Comparações com exames anteriores
+</Accordion>
+
+<Accordion title="Impressão Diagnóstica">
+- Conclusões
+- Sugestões
+- Recomendações
+</Accordion>
+</AccordionGroup>
+
+## Criando um Modelo Personalizado
+
+### Quando Criar um Modelo
+
+<CardGroup cols={2}>
+<Card title="Padronização Institucional" icon="building">
+Crie modelos que seguem os padrões e protocolos da sua instituição
+</Card>
+
+<Card title="Casos Específicos" icon="star">
+Desenvolva templates para tipos de exames ou achados incomuns
+</Card>
+
+<Card title="Eficiência Pessoal" icon="zap">
+Crie modelos que se adaptam ao seu estilo de redação e fluxo de trabalho
+</Card>
+
+<Card title="Treinamento" icon="graduation-cap">
+Desenvolva modelos didáticos para residentes e estudantes
+</Card>
+</CardGroup>
+
+### Processo de Criação
+
+<Steps>
+<Step title="Acesse Novo Modelo">
+Na biblioteca, clique em "Novo Modelo" ou "Criar Modelo"
+</Step>
+
+<Step title="Defina as informações básicas">
+- **Nome do modelo** - Descrição clara e objetiva
+- **Modalidade** - TC, RM, USG, RX, etc.
+- **Região anatômica** - Localização do exame
+- **Tipo de exame** - Rotina, emergência, seguimento
+</Step>
+
+<Step title="Estruture o conteúdo">
+Crie as seções do modelo usando:
+- Textos base com espaços para personalização
+- Campos variáveis (ex: [NOME_PACIENTE], [DATA_EXAME])
+- Instruções entre colchetes para o usuário
+</Step>
+
+<Step title="Teste o modelo">
+Use o modelo em alguns laudos para garantir que funciona bem
+</Step>
+
+<Step title="Salve e categorize">
+Defina se o modelo será público (toda instituição) ou privado (seu uso pessoal)
+</Step>
+</Steps>
+
+## Importando Modelos Externos
+
+### Formatos Suportados
+
+O Laudos.AI suporta importação de modelos nos seguintes formatos:
+
+<AccordionGroup>
+<Accordion title="Formato Laudos.AI (.lai)">
+Arquivos nativos da plataforma com estrutura completa e metadados
+</Accordion>
+
+<Accordion title="Texto (.txt, .docx)">
+Modelos de texto simples que podem ser convertidos
+</Accordion>
+
+<Accordion title="JSON (.json)">
+Estruturas de dados para modelos avançados com lógica condicional
+</Accordion>
+</AccordionGroup>
+
+### Processo de Importação
+
+<Steps>
+<Step title="Clique em Importar">
+Localizado na parte superior da biblioteca
+</Step>
+
+<Step title="Selecione o arquivo">
+Escolha o arquivo do modelo no seu computador
+</Step>
+
+<Step title="Revise a estrutura">
+O sistema mostrará uma prévia do modelo importado
+</Step>
+
+<Step title="Ajuste se necessário">
+Faça correções ou adaptações ao formato Laudos.AI
+</Step>
+
+<Step title="Confirme a importação">
+Salve o modelo em sua biblioteca
+</Step>
+</Steps>
+
+## Gerenciando seus Modelos
+
+### Organização
+
+<CardGroup cols={2}>
+<Card title="Categorias Pessoais" icon="folder">
+Organize seus modelos em pastas por especialidade ou tipo
+</Card>
+
+<Card title="Favoritos" icon="star">
+Marque modelos frequentemente usados como favoritos
+</Card>
+
+<Card title="Histórico de Uso" icon="history">
+Acompanhe quantas vezes cada modelo foi utilizado
+</Card>
+
+<Card title="Versões" icon="git-branch">
+Mantenha diferentes versões de modelos com atualizações
+</Card>
+</CardGroup>
+
+### Edição e Atualização
+
+<Steps>
+<Step title="Localize o modelo">
+Encontre o modelo que deseja editar
+</Step>
+
+<Step title="Acesse as opções">
+Clique nos três pontos ou ícone de configurações do modelo
+</Step>
+
+<Step title="Selecione Editar">
+O modelo será aberto no modo de edição
+</Step>
+
+<Step title="Faça as alterações">
+Atualize texto, estrutura ou configurações conforme necessário
+</Step>
+
+<Step title="Salve as mudanças">
+As atualizações serão aplicadas imediatamente
+</Step>
+</Steps>
+
+## Compartilhamento e Colaboração
+
+### Modelos Públicos vs. Privados
+
+<AccordionGroup>
+<Accordion title="Modelos Públicos">
+- Visíveis para todos os usuários da instituição
+- Promovem padronização entre equipes
+- Requerem aprovação para publicação
+- Podem ser usados como referência
+</Accordion>
+
+<Accordion title="Modelos Privados">
+- Uso pessoal exclusivo
+- Maior liberdade de personalização
+- Não requerem aprovação
+- Ideal para preferências individuais
+</Accordion>
+</AccordionGroup>
+
+### Compartilhamento com Equipe
+
+<Steps>
+<Step title="Selecione o modelo">
+Escolha um modelo privado que deseja compartilhar
+</Step>
+
+<Step title="Clique em Compartilhar">
+Opção disponível nas configurações do modelo
+</Step>
+
+<Step title="Defina os destinatários">
+Selecione usuários ou grupos da instituição
+</Step>
+
+<Step title="Adicione uma mensagem">
+Explique o propósito e uso do modelo
+</Step>
+
+<Step title="Envie o convite">
+Os destinatários receberão notificação para usar o modelo
+</Step>
+</Steps>
+
+## Estatísticas e Análise
+
+### Métricas de Uso
+
+Acompanhe o desempenho de seus modelos:
+
+<CardGroup cols={2}>
+<Card title="Frequência de Uso" icon="bar-chart">
+Quantas vezes cada modelo foi utilizado
+</Card>
+
+<Card title="Tempo Economizado" icon="clock">
+Tempo médio economizado usando modelos vs. criar do zero
+</Card>
+
+<Card title="Taxa de Satisfação" icon="thumbs-up">
+Avaliações dos usuários sobre a qualidade dos modelos
+</Card>
+
+<Card title="Popularidade" icon="trending-up">
+Modelos mais usados na instituição
+</Card>
+</CardGroup>
+
+## Dicas de Otimização
+
+<Tip>
+**Mantenha modelos simples** - Modelos muito complexos são difíceis de usar e personalizar
+</Tip>
+
+<Tip>
+**Use campos variáveis** - Facilita personalização rápida sem reescrever tudo
+</Tip>
+
+<Tip>
+**Teste antes de compartilhar** - Garanta que o modelo funciona bem em diferentes situações
+</Tip>
+
+<Tip>
+**Atualize regularmente** - Mantenha os modelos alinhados com as melhores práticas atuais
+</Tip>
+
+<Warning>
+Modelos compartilhados publicamente devem seguir os padrões e protocolos da instituição. Revise com supervisão médica antes de disponibilizar.
+</Warning>
+
+<Check>
+Uma biblioteca de modelos bem organizada pode reduzir em até 70% o tempo de criação de laudos rotineiros.
+</Check>
